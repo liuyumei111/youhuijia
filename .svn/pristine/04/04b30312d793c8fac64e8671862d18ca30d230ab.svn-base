@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="keywords" content="APP开发,APP外包,APP外包开发,北京,北京APP外包,APP开发公司,Android外包开发,
+    微信网页二次开发,微信公众号二次开发,iOS外包开发,iphone开发外包,APP定制开发,APP开发商,微信开发,微信网页开发,
+    H5开发,官网开发,商城开发,微信公众号开发">
+    <meta name="description" content="友惠家（北京）信息技术有限公司成立于2015年，坐落于北京798艺术园区,拥有强大的技术开发和销售团队，
+    目前人数30人左右，专注于APP定制开发、微信应用开发、手机移动网站建设、高端网站建设等等，为客户提供优质的体验和解决方案。">
+    <title>友惠家（北京）--云采编</title>
+    <link href="css/pcstyle.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+</head>
+<body>
+    <div class="wrap">
+            <!--<header>-->
+                <!--<div class="head">-->
+                    <!--<div class="logo">-->
+                        <!--<a href="#">-->
+                            <!--<img src="images/pclogo.png" >-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<ul class="iconbox">-->
+                        <!--<li class="icon icon1"></li>-->
+                        <!--<li class="icon icon2"></li>-->
+                        <!--<li class="icon icon3"></li>-->
+                        <!--<li class="icon icon4"></li>-->
+                        <!--<li class="icon icon5"></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</header>-->
+        <nav>
+            <div class="header">
+                <img src="images/pclogob.png" class="imgb">
+                <img src="images/pclogo.png" class="dn">
+                <ul class="nav" id="nav">
+                    <li class="">首页</li>
+                    <li class="pr active" id="dsj">大数据 <i></i>
+                        <div class="ycbox pa">
+                            <p><a href="http://huifakeji.com/shop.html">SHOP+</a></p>
+                            <p><a href="http://huifakeji.com/yuncaiji.html">云采集</a></p>
+                            <p><a href="http://huifakeji.com/yuntuijian.html">云推荐</a></p>
+                            <p><a href="http://huifakeji.com/seach.html">智能搜索</a></p>
+                            <p style="border-bottom: none"><a href="http://huifakeji.com/zrwd.html">自然语言问答</a></p>
+                        </div>
+                    </li>
+                    <li>公司动态</li>
+                    <li>项目案例</li>
+                    <li>联系我们</li>
+                    <li style="    width: 170px;line-height: 23px;"><img src="images/phoneb.png" class="imgb">
+                        <img src="images/phone.png" class="dn">
+                        17701241710</li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="bj3">
+            <img src="images/prodect.png">
+        </div>
+
+        <div class="col-md-12  text-center gtco-heading " id="font">
+            <h2 style=" border-bottom: 1px solid #dedede;width: 100%;" class="pr">媒体大数据</h2>
+            <p style="font-size: 16px;">    为大中型门户网站、媒体机构提供服务，使其在分秒级的时间内捕捉到全网最新动态，并在海量数据中过滤出最关注、最热的焦点，并完成内容编辑、配图、排版、发布成为可能。
+                通过爬虫、数据挖掘、文本分析、全文检索、智能推荐、图像/音视频分析压缩编解码等技术的深度结合，为大中型门户网站、媒体机构提供实时、智能、全面的内容服务。互联网和移动互联网的快速发展，新闻资讯每天的发布量越来越大，内容形式也多样化。如何在分、秒级的时间内捕捉到最新的新闻资讯，并在海量的新闻资讯中过滤出我们最关注、最热的焦点，第一时间完成内容编辑、配图、排版、发布，是我们解决的问题。同时结合我们的推荐服务为资讯社区平台提供包括内容服务、数据挖据、用户画像、产品推荐、精准广告投放等整体的解决方案</p>
+        </div>
+
+        <div id="gtco-features">
+            <div class="gtco-container" style="padding-top: 2em;">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-center animate-box Cloud_editing_main fadeIn animated-fast" data-animate-effect="fadeIn">
+						<span class="icon pic2">
+							<img src="http://www.solr.com.cn/static/cn/default/img/product1.png" style="width: 70px;">
+						</span>
+                            <h3 class="h3">及时</h3>
+                            <p style="font-size: 16px;">实时监控全网动态，分秒级采集到web/app/微信公众号上的所有最新资讯。大幅提升热点新闻的响应和发布速度。不错过任何最新、最热的资讯和事件 </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-center animate-box Cloud_editing_main fadeIn animated-fast" data-animate-effect="fadeIn">
+						<span class="icon product2">
+							<img src="http://www.solr.com.cn/static/cn/default/img/product2.png" style="width: 70px;">
+						</span>
+                            <h3 class="h3">全面</h3>
+                            <p style="font-size: 16px;">分布式爬虫集群，海量数据抓取，汇聚全网的高质量数据。可以按主题、地域、人物、时间、来源、栏目等汇聚相关数据，融合各家数据所长，生成自己特色内容。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-center animate-box Cloud_editing_main fadeIn animated-fast" data-animate-effect="fadeIn">
+						<span class="icon pic2">
+							<img src="http://www.solr.com.cn/static/cn/default/img/product3.png" style="width: 70px;">
+						</span>
+                            <h3 class="h3">高效</h3>
+                            <p style="font-size: 16px;">全文索引可快速检索，过滤，排序。数据可以自动分类，自动提取关键词标签，自动提取缩略图/视频截图，自动排版统一格式。支持多用户管理，一键发布、批量发布、定时发布、自动发布。从找内容到编辑到发布效率提升几十倍以上。 </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-center animate-box Cloud_editing_main fadeIn animated-fast" data-animate-effect="fadeIn">
+						<span class="icon pic2">
+							<img src="http://www.solr.com.cn/static/cn/default/img/product4.png" style="width: 70px;">
+						</span>
+                            <h3 class="h3">自动</h3>
+                            <p style="font-size: 16px;">除了可以对文本自动格式清洗，完成统一的排版。图片音视频等媒体文件也支持本地存储使文件链接稳定有效，自动完成压缩编解码节省带宽，提高打开速度。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-center animate-box Cloud_editing_main fadeIn animated-fast" data-animate-effect="fadeIn">
+						<span class="icon pic2">
+							<img src="http://www.solr.com.cn/static/cn/default/img/product5.png" style="width: 70px;">
+						</span>
+                            <h3 class="h3">智能</h3>
+                            <p style="font-size: 16px;">自动识别生成文章的主题/关键词/摘要 根据资讯内容的主题匹配出相关主题的其它资讯,图片，音视频。 根据资讯内容自动推荐配图。独有的资讯热度评级体系，可以快速找出当前热点。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-center animate-box Cloud_editing_main fadeIn animated-fast" data-animate-effect="fadeIn">
+						<span class="icon pic2">
+							<img src="http://www.solr.com.cn/static/cn/default/img/product6.png" style="width: 70px;">
+						</span>
+                            <h3 class="h3">简单</h3>
+                            <p style="font-size: 16px;">无需开发，不用配置采集规则，不用配置采集模板。追求最简，一切都在云端完成。 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer-wrap clearfix">
+            <div class="footer-left">
+                <h3>友惠家（北京） 国内最大的移动应用开发公司</h3>
+                <p>
+                    <a href="http://huifakeji.com/">APP开发</a>
+                    ▎<a href="http://huifakeji.com/">手机APP开发</a>
+                    ▎<a href="http://huifakeji.com/">广州APP开发公司</a>
+                    ▎<a href="http://huifakeji.com/">深圳APP开发公司</a>
+                    ▎<a href="http://huifakeji.com/">北京APP开发公司</a>
+                    ▎<a href="http://huifakeji.com/">APP软件开发</a>
+                    ▎<a href="http://huifakeji.com/">开发APP流程</a>
+                    ▎<a href="http://huifakeji.com/sitemap.html">网站地图</a>
+                    ▎<a href="http://huifakeji.com/">微信公众号开发</a>
+                    ▎<a href="http://huifakeji.com">手机app制作</a>
+                </p>
+                <p class="friendship">
+                    <span class="friendship">友情链接</span>
+                    <a href="http://weixin.mcmore.com/" target="_blank">微商城</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">APP制作</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">广州app开发公司</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">APP活动工具</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">商城系统</a>
+                </p>
+            </div>
+            <div class="footer-right">
+                <p class="tel">服务热线：17701241710</p>
+                <p>北京服务热线：17701241710</p>
+            </div>
+        </div>
+    </div>
+    <div class="fd-copy">
+        <div class="wp">
+            <p class="tc"> <span>Copyright © 2012-2017  友惠家（北京）信息技术有限公司 版权所有 </span><a href="#"><span>京ICP备15024353号-1</span></a> <a href="#"></a> </p>
+        </div>
+    </div>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            //spaceBetween: 10,
+            centeredSlides: true,
+            autoplay: 5000,
+            autoplayDisableOnInteraction: false,
+            loop:true
+        });
+        var num=0;
+        var Height=$(".bj3").height();
+        $(window).scroll(function(event) {
+            num=$(document).scrollTop();
+            if(num>=Height)
+            {
+                $("nav").css({"background-color":"#fff","border-bottom":"1px solid #f5f5f5","color":"#434343"});
+                $(".imgb").hide().siblings('img').show();
+            }
+            else{
+                $("nav").css({"background":"none","border-bottom":"none","color":"#fff"});
+                $(".imgb").show().siblings("img").hide();
+            }
+        });
+       //
+        $("#dsj").hover(function () {
+            $(this).find("div").stop().slideDown(500);
+        },
+        function () {
+            $(this).find("div").stop().slideUp(500);
+        })
+        $("img").attr("ondragstart","return false");
+        $("img").attr("alt","app开发,微信开发");
+        $("#nav li").click(function() {
+            var index=$(this).index();
+            $(this).addClass("active").siblings().removeClass("active");
+            if(index===0){
+               window.location.href="index.html"
+            }
+            else if(index===2){
+                window.location.href="index.html"
+            }
+            else if(index===3){
+                window.location.href="index.html"
+            }
+            else if(index===4){
+                window.location.href="index.html"
+            }
+        });
+    });
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?934e90028d86f705844cbab65044a0ae";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

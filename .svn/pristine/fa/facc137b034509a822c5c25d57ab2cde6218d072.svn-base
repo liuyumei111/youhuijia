@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="keywords" content="APP开发,APP外包,APP外包开发,北京,北京APP外包,APP开发公司,Android外包开发,
+    微信网页二次开发,微信公众号二次开发,iOS外包开发,iphone开发外包,APP定制开发,APP开发商,微信开发,微信网页开发,
+    H5开发,官网开发,商城开发,微信公众号开发">
+    <meta name="description" content="友惠家（北京）信息技术有限公司成立于2015年，坐落于北京798艺术园区,拥有强大的技术开发和销售团队，
+    目前人数30人左右，专注于APP定制开发、微信应用开发、手机移动网站建设、高端网站建设等等，为客户提供优质的体验和解决方案。">
+    <title>友惠家（北京）信息技术有限公司</title>
+    <link href="css/pcstyle.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <script>
+        function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+            //document.writeln("您的浏览设备为：");
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                window.location.href="http://www.huifakeji.com/mobile/html/index.html";
+            }
+        }
+        browserRedirect();
+    </script>
+</head>
+<body>
+    <div class="wrap">
+            <!--<header>-->
+                <!--<div class="head">-->
+                    <!--<div class="logo">-->
+                        <!--<a href="#">-->
+                            <!--<img src="images/pclogo.png" >-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<ul class="iconbox">-->
+                        <!--<li class="icon icon1"></li>-->
+                        <!--<li class="icon icon2"></li>-->
+                        <!--<li class="icon icon3"></li>-->
+                        <!--<li class="icon icon4"></li>-->
+                        <!--<li class="icon icon5"></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</header>-->
+        <nav>
+            <div class="header">
+            <img src="images/pclogob.png" class="imgb">
+                <img src="images/pclogo.png" class="dn">
+            <ul class="nav" id="nav">
+                <li class="active">首页</li>
+                <li class="pr" id="dsj">大数据 <i></i>
+                    <div class="ycbox pa">
+                        <p><a href="http://huifakeji.com/shop.html">SHOP+</a></p>
+                        <p><a href="http://huifakeji.com/yuncaiji.html">云采集</a></p>
+                        <p><a href="http://huifakeji.com/yuntuijian.html">云推荐</a></p>
+                        <p><a href="http://huifakeji.com/seach.html">智能搜索</a></p>
+                        <p style="border-bottom: none"><a href="http://huifakeji.com/zrwd.html">自然语言问答</a></p>
+                    </div>
+                </li>
+                <li>公司动态</li>
+                <li>项目案例</li>
+                <li>联系我们</li>
+                <li style="    width: 170px;line-height: 23px;"><img src="images/phoneb.png" class="imgb">
+                    <img src="images/phone.png" class="dn">
+                    17701241710</li>
+            </ul>
+            </div>
+        </nav>
+        <div class="swiper-container swiper-container-horizontal">
+            <div class="swiper-wrapper" id="banner">
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/banner.png">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/banner.png">
+                    </a>
+                </div>
+              </div>
+            <div class="swiper-pagination" style="position: absolute;bottom: 10px"></div>
+        </div>
+        <div class="gsdt pr" id="gsdt">
+            <img src="images/pcimg1.jpg" >
+            <div class="wz pa">
+                <h2>友惠家（北京）信息技术有限公司</h2>
+                <p>友惠家（北京）信息技术有限公司成立于2015年，坐落于北京798艺术园区,拥有强大的技术开发和销售团队，目前人数30人左右，专注于APP定制开发、微信应用开发、手机移动网站建设、高端网站建设等等，为客户提供优质的体验和解决方案。</p>
+            </div>
+        </div>
+        <div  class="box2">
+            <img src="images/zyyw.jpg" class="zyyw">
+            <ul>
+                <li class="col-sm-3"><img src="images/pcicon.jpg">
+                    <div class="box3"><div class="bb"></div></div>
+                    <h2>网站建设</h2>
+                    <p>不同类型的网站建设,包括:互联网金融,社交应用,企业官网,OA办公等.</p>
+                </li>
+                <li class="col-sm-3"><img src="images/wxicon.jpg">
+                    <div class="box3"><div class="bb"></div></div>
+                    <h2>微信</h2>
+                    <p>微信公众平台,服务号,订阅号开发,微信网页建设,各种支付对接.</p>
+                </li>
+                <li class="col-sm-3"><img src="images/appicon.jpg">
+                    <div class="box3"><div class="bb"></div></div><h2>APP</h2>
+                    <p>Android+iOS一体,一次开发两处使用,节约成本,方便维护.</p></li>
+                <li class="col-sm-3"><img src="images/uiicon.jpg">
+                    <div class="box3"><div class="bb"></div></div>
+                    <h2>设计</h2>
+                    <p>软件的人机交互,操作逻辑,界面美观的整体设计舒适,简单,自由.充分体现软件的定位和特点.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="bj pr">
+            <img src="images/pcimg3.png " >
+        </div>
+        <div class="wmys">
+            <img src="images/pcimg4.jpg" >
+            <img src="images/pcimg5.jpg" >
+        </div>
+        <div class="bj1">
+            <img src="images/pcimg6.png" >
+        </div>
+        <div class="wmys2">
+            <img src="images/pcimg7.jpg" >
+            <img src="images/pcimg8.jpg" >
+        </div>
+        <div class="wmys">
+            <img src="images/pcimg9.jpg" >
+            <img src="images/pcimg10.jpg" >
+        </div>
+        <div class="wmys2">
+            <img src="images/pcimg11.jpg" >
+            <img src="images/pcimg12.jpg" >
+        </div>
+
+        <div class="hzxm">
+            <img src="images/hzwz.png" class="wz" >
+            <ul class="pcbox">
+                <li><img src="images/pcimgicon1.png" ></li>
+                <li><img src="images/pcimgicon2.png" ></li>
+                <li><img src="images/pcimgicon3.png" ></li>
+                <li><img src="images/pcimgicon4.png" ></li>
+                <li><img src="images/pcimgicon5.png" ></li>
+                <li><img src="images/pcimgicon6.png" ></li>
+                <li><img src="images/pcimgicon7.png" ></li>
+                <li><img src="images/pcimgicon8.png" ></li>
+                <li><img src="images/pcimgicon9.png" ></li>
+                <li><img src="images/pcimgicon10.png" ></li>
+                <li><img src="images/pcimgicon11.png"></li>
+                <li><img src="images/pcimgicon12.png"></li>
+                <li><img src="images/pcimgicon13.png"></li>
+                <li><img src="images/pcimgicon14.png"></li>
+                <li><img src="images/pcimgicon15.png"></li>
+            </ul>
+        </div>
+        <div class="wp" style="    margin-bottom: 70px;">
+            <h2 class="g-tit animated fadeInUp">
+                <strong>在线提交</strong>
+                <em>Online submission</em>
+            </h2>
+
+            <div class="idx_submit animated fadeInUp">
+                <div class="idx_submit_img"><img src="images/list_img9.jpg" alt="app"></div>
+
+                <div class="idx_submit_form">
+                    <form action="" id="myForm">
+                        <h3>在线提交</h3>
+                        <ul>
+                            <li>
+                                <div class="let"><em>客户姓名：</em></div>
+                                <div class="rig">
+                                    <div class="inp"><input type="text" name="title" id="title" class="text"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="let"><em>联系方式：</em></div>
+                                <div class="rig">
+                                    <div class="inp"><input type="text" name="tel" id="tel" class="text"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="let"><em>内容需求：</em></div>
+                                <div class="rig">
+                                    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+                                    <div class="g-btn" id="btn">
+                                        <a href="javascript:;">提交</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <input type="hidden" name="__hash__" value="6666cd76f96956469e7be39d750cc7d9_ebfdb8df867cd7338b3778d692780d27"></form>
+                </div>
+            </div>
+        </div>
+        <div class="wmys" style="padding-top: 0" id="lxwm">
+            <img src="images/lxwm.jpg" style="width: 233px;">
+            <p style="text-align: center;font-size: 24px;padding-bottom: 20px;">友惠家（北京）信息技术有限公司 &nbsp;&nbsp;  地址:北京市朝阳区798艺术区极地国际创业中心217室,301室.</p>
+        </div>
+
+        <div id="allmap"></div>
+
+    </div>
+    <div class="footer">
+        <div class="footer-wrap clearfix">
+            <div class="footer-left">
+                <h3>友惠家（北京) 国内最大的移动应用开发公司</h3>
+                <p>
+                    <a href="http://huifakeji.com/">APP开发</a>
+                    ▎<a href="http://huifakeji.com/">手机APP开发</a>
+                    ▎<a href="http://huifakeji.com/">广州APP开发公司</a>
+                    ▎<a href="http://huifakeji.com/">深圳APP开发公司</a>
+                    ▎<a href="http://huifakeji.com/">北京APP开发公司</a>
+                    ▎<a href="http://huifakeji.com/">APP软件开发</a>
+                    ▎<a href="http://huifakeji.com/">开发APP流程</a>
+                    ▎<a href="http://huifakeji.com/sitemap.html">网站地图</a>
+                    ▎<a href="http://huifakeji.com/">微信公众号开发</a>
+                    ▎<a href="http://huifakeji.com">手机app制作</a>
+                </p>
+                <p class="friendship">
+                    <span class="friendship">友情链接</span>
+                    <a href="http://weixin.mcmore.com/" target="_blank">微商城</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">APP制作</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">广州app开发公司</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">APP活动工具</a>
+                    ▎ <a href="http://huifakeji.com/" target="_blank">商城系统</a>
+                </p>
+            </div>
+            <div class="footer-right">
+                <p class="tel">服务热线：17701241710</p>
+                <p>北京服务热线：17701241710</p>
+            </div>
+        </div>
+    </div>
+    <div class="fd-copy">
+        <div class="wp">
+            <p class="tc"> <span>Copyright © 2012-2017  友惠家（北京）信息技术有限公司 版权所有 </span><a href="#"><span>京ICP备15024353号-1</span></a> <a href="#"></a> </p>
+        </div>
+    </div>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            //spaceBetween: 10,
+            centeredSlides: true,
+            autoplay: 5000,
+            autoplayDisableOnInteraction: false,
+            loop:true
+        });
+        var num=0;
+        var Height=$(window).height();
+        $(window).scroll(function(event) {
+            num=$(document).scrollTop();
+            if(num>=Height)
+            {
+                $("nav").css({"background-color":"#fff","border-bottom":"1px solid #f5f5f5","color":"#434343"});
+                $(".imgb").hide().siblings('img').show();
+            }
+            else{
+                $("nav").css({"background":"none","border-bottom":"none","color":"#fff"});
+                $(".imgb").show().siblings("img").hide();
+            }
+        });
+       //
+        $("#dsj").hover(function () {
+            $(this).find("div").stop().slideDown(500);
+        },
+        function () {
+            $(this).find("div").stop().slideUp(500);
+        })
+        $("img").attr("ondragstart","return false");
+        $("img").attr("alt","app开发,微信开发");
+        $(".box2 ul li").hover(function () {
+            $(this).find('.box3').show();
+        },function () {
+            $(this).find('.box3').hide();
+        })
+        $("#nav li").click(function() {
+            var index=$(this).index();
+            $(this).addClass("active").siblings().removeClass("active");
+            if(index===0){
+                $("body,html").stop().animate({
+                    "scrollTop":"0"
+                },1000);
+            }
+            else if(index===2){
+                $("body,html").stop().animate({
+                    "scrollTop":$("#gsdt").offset().top-80
+                },1000);
+            }
+            else if(index===3){
+                $("body,html").stop().animate({
+                    "scrollTop":$(".bj1").offset().top-555
+                },1000);
+            }
+            else if(index===4){
+                $("body,html").stop().animate({
+                    "scrollTop":$("#lxwm").offset().top-80
+                },1000);
+            }
+        });
+    });
+
+    (function (w) {
+        //百度地图API功能
+        function loadJScript() {
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "http://api.map.baidu.com/api?v=2.0&ak=djFBu4vgBKRGXP4z4KDYiGxRdz0sF5CL&callback=init";
+            document.body.appendChild(script);
+
+        }
+        //创建检索信息窗口对象
+        w.init = init;
+
+        function init() {
+            var map = new BMap.Map("allmap");            // 创建Map实例
+            var point = new BMap.Point(116.504976,39.990515); // 创建点坐标
+            map.centerAndZoom(point, 15);
+            map.enableScrollWheelZoom();                 //启用滚轮放大缩小
+            map.centerAndZoom(point, 18);
+            var marker = new BMap.Marker(point);  // 创建标注
+            map.addOverlay(marker);              // 将标注添加到地图中
+            marker.addEventListener("click", getAttr);
+            marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+
+            function getAttr() {
+                var p = marker.getPosition();       //获取marker的位置
+                //alert("marker的位置是" + p.lng + "," + p.lat);
+            }
+        }
+
+        w.onload = loadJScript;  //异步加载地图
+    })(window);
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?934e90028d86f705844cbab65044a0ae";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
